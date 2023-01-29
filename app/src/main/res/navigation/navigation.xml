@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/choice_directory">
+
+    <fragment
+        android:id="@+id/choice_directory"
+        android:name="com.example.baseapp.view.BlankFragment"
+        android:label="选择目录"
+        tools:layout="@layout/fragment_choice" />
+    <fragment
+        android:id="@+id/fragment_setting"
+        android:name="com.example.baseapp.view.BlankFragment2"
+        android:label="设置"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

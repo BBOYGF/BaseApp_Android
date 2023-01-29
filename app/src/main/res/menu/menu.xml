@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/choice_directory"
+            android:icon="@drawable/choice_directory"
+            android:title="@string/choiceFIle" />
+        <item
+            android:id="@+id/fragment_setting"
+            android:icon="@drawable/settings"
+            android:title="@string/settingString"
+            />
+    </group>
+
+</menu>
